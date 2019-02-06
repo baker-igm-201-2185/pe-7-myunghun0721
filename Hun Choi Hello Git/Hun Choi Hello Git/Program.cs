@@ -20,6 +20,7 @@ namespace LynchWyatt_PE7
                 }
             }
             Console.WriteLine("");
+            Console.WriteLine("test");
         }
     }
 }
