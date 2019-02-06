@@ -10,7 +10,7 @@ namespace LynchWyatt_PE7
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("");
+
             Console.WriteLine("Hello Git World");
 
             for (int i = 0; i <= 100; i++)
