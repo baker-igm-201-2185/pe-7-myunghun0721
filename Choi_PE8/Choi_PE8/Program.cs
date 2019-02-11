@@ -13,6 +13,7 @@ namespace Choi_PE8
             Car myCar;
             // only init
             myCar = new Car(2018, "Kia", "Optima");
+            myCar.Year = 2018;
             //myCar.year = 2018;
             //myCar.make = "Kia";
             //myCar.model = "Optima";
@@ -20,7 +21,7 @@ namespace Choi_PE8
             Car yourCar = new Car();
 
             //myCar.year = 2019;
-            int myMoney = 1000000;
+            //int myMoney = 1000000;
 
             //Console.WriteLine(myCar.make);
             //Console.WriteLine(myMoney / myCar.make);

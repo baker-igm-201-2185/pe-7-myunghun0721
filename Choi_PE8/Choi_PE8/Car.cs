@@ -8,24 +8,38 @@ namespace Choi_PE8
 {
     class Car
     {
-        public int year;
+        private int year;
         public string make;
         public string model;
         public float gasLevel;
 
+        public int Year
+        {
+            get
+            {
+                return year;
+
+            }
+            //private set
+            set
+            {
+                if(value > 2000 && value < 2019)
+                {
+                    year = value;
+                }
+            }
+        }
+
         public Car()
         {
-            year = 2000;
+            Year = 2000;
             make = "Ford";
             model = "car";
             gasLevel = 20;
         }
         public Car(int year, string make, string model)
         {
-            if(year > 2000 && year < 2019)
-            {
-                this.year = year;
-            }
+            Year = year;
             this.make = make;
             this.model = model;
         }
