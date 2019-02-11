@@ -9,7 +9,7 @@ namespace Choi_PE8
     class Program
     {
         static void Main(string[] args)
-        {   // only declares
+        {   //  only declares
             Car myCar;
             // only init
             myCar = new Car(2018, "Kia", "Optima");
