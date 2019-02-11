@@ -29,7 +29,27 @@ namespace Choi_PE8
                 }
             }
         }
+        /* both doing same work
+        string make;
 
+        public string Make
+        {
+            get; set;
+        }
+
+        string model;
+        public string Model
+        {
+            get
+            {
+                return model;
+            }
+            set
+            {
+                model = value;
+            }
+        }
+        */
         public Car()
         {
             Year = 2000;
